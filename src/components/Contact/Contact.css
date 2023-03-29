@@ -1,0 +1,39 @@
+.contact-txt{
+    color: white;
+}
+
+.Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    height: 300px;
+    width: 500px;
+    margin: auto;
+}
+.a-gmail{
+    color: white;
+}
+.gmail{
+    color: white;
+    gap: 1px;
+    letter-spacing: 1px;
+}
+.linkedin{
+    color: white;
+    gap: 1px;
+    letter-spacing: 1px;
+}
+.linkedin > a{
+    color: ;
+    gap: 1px;
+    letter-spacing: 1px;
+}
