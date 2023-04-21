@@ -9,10 +9,9 @@ import Contact from './components/Contact/Contact.js';
 function App() {
   return (
     <div className="App">
-      <div className='headerandcontainer'>
      <Header/>
      <TopContainer/>
-     </div>
+    
      <SkillContainer/>
      <ProjectContainer/>
      <Course/>
