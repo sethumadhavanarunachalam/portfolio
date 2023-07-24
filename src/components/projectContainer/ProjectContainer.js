@@ -1,6 +1,7 @@
 import React from 'react'
 import projectimg from "../../assests/Screenshot (659).png"
  import itemimg from "./Screenshot (775).png"
+ import rentimg from "./Screenshot (807).png"
 import "./projectContainer.css"
 import { Element } from 'react-scroll'
 function projectContainer() {
@@ -15,6 +16,14 @@ function projectContainer() {
     </div>
         <a className='project-btn' href='https://vermillion-tartufo-3391ba.netlify.app/movielist' target='_blank'>Click</a>
         </span>
+        <span>
+    
+    <h5 className='movie-app'>Rental portal</h5>
+    <div className='projectcontainer' >
+        <img className='projectimg' src={rentimg} alt=""/>
+    </div>
+        <a className='project-btn' href='https://equipment-rental-portal.netlify.app/' target='_blank'>Click</a>
+        </span> 
         <span>
     
     <h5 className='movie-app'>Item Catlog App</h5>
